@@ -1,0 +1,140 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/3872553.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('https://cdn.wallpapersafari.com/28/7/5s8flR.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logoimg {
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0;
+    outline: none;
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.searchbutton {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.classes-section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.classes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    justify-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    width: 220px; /* Ajuste de largura */
+    height: 280px; /* Ajuste de altura */
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 70%; /* Ajuste de altura da imagem */
+}
+
+.card h2 {
+    margin: 10px 0;
+    color: #000; /* Alterar cor do texto para preto */
+}
+
+.card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card button:hover {
+    background-color: #666;
+}
+
+
